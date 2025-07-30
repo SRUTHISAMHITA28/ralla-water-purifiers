@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "ralla-water-purifiers-backend",
+      "env": "node",
+      "buildCommand": "npm install",
+      "startCommand": "npm start",
+      "envVars": {
+        "PORT": "5000",
+        "NODE_ENV": "production"
+      },
+      "rootDirectory": "backend",
+      "instanceType": "free"
+    }
+  ]
+}
