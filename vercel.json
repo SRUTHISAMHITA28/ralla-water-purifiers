@@ -14,5 +14,8 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "VITE_API_URL": "https://ralla-water-purifiers.onrender.com"
+  }
 }
